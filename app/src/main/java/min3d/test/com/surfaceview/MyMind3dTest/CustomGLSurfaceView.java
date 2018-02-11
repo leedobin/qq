@@ -28,7 +28,7 @@ public class CustomGLSurfaceView extends GLSurfaceView implements Renderer {
 	@Override
 	public void onDrawFrame(GL10 gl) {
 		gl.glClear(GL10.GL_COLOR_BUFFER_BIT | GL10.GL_DEPTH_BUFFER_BIT);	// Clear screen with clear color
-		gl.glColor4f(1.0f, 1.0f, 0.0f, 1.0f);   // Set drawing color as black
+		gl.glColor4f(2.0f, 1.0f, 0.0f, 1.0f);   // Set drawing color as black
 		
 		gl.glLoadIdentity();
 		gl.glTranslatef(0.0f, 0.0f, -6.0f);
